@@ -1,5 +1,10 @@
 import React, {useState} from 'react';
 import './navbar.css'
+
+import AppLogo from '../assets/AppLogo.svg'
+import DownArrow from '../assets/DownArrow.svg'
+import ProfileIcon from '../assets/Profile.svg'
+
 const Navbar = () => {
   // need to add some userState here when user search past entries by keywords
   // and the onClick handler when user click search button
@@ -14,20 +19,16 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="39" viewBox="0 0 40 39" fill="green">
-          <path d="M32.2572 9.93512C28.647 9.93512 25.0058 9.50361 21.3736 9.50361C18.5545 9.50361 14.3076 8.99662 12.7914 11.9728C10.7255 16.028 9.63294 20.0533 9.60307 24.6543C9.58979 26.6986 9.16434 29.4896 10.9455 30.9591C12.8024 32.491 15.5242 33.0241 17.8496 33.3563C21.8908 33.9336 27.5229 33.9755 30.651 30.9591C32.909 28.7818 32.4921 25.5923 32.4729 22.7365C32.4414 18.0469 30.7636 14.0345 27.0791 11.0139C25.3639 9.6077 22.9308 8.02586 20.7383 7.48991C19.3171 7.14251 17.7043 7.32435 16.2435 7.17827C13.1567 6.86959 9.99712 7.02607 7.39759 8.85635C5.9706 9.86107 4.26017 10.8263 3.46608 12.4522C2.53474 14.3593 2.07932 16.8255 2.0517 18.9248C2.01512 21.7048 1.56037 25.0772 2.30341 27.7707C2.7832 29.51 4.30852 31.1782 5.5517 32.4214C6.79537 33.6651 8.12802 34.714 9.71094 35.4899C10.7344 35.9916 11.8281 36.9422 12.9832 37.0721C16.6211 37.4814 20.0419 37.1757 23.2674 35.442C25.926 34.013 28.6848 32.7071 30.2674 29.9522C31.8907 27.1265 32.4454 24.3578 32.2092 21.1303C32.081 19.378 31.5637 17.8693 30.8548 16.2879C29.9798 14.3361 29.4302 12.2643 28.2418 10.4625C25.9351 6.9654 22.0563 4.48141 18.1733 3.05499C15.9148 2.22533 12.8432 2.168 10.4421 2.168C8.0435 2.168 7.60785 3.09333 6.89416 5.10464C5.62747 8.67441 5.54884 12.7713 5.73149 16.5156C6.0155 22.3377 12.1813 27.2627 16.615 30.12C19.0655 31.6992 21.6402 33.0634 24.49 33.7759C26.582 34.2988 28.8294 34.0995 30.9746 34.0995C35.0359 34.0995 37.0507 29.2464 37.5311 26.0207C37.82 24.081 37.651 22.0303 37.651 20.0755C37.651 18.4952 37.8672 16.6603 37.1955 15.1731C35.9731 12.4664 35.1016 9.71032 32.7007 7.78957C31.6795 6.97263 30.1408 6.42936 28.913 6.05156C27.3869 5.58201 25.9172 5.79644 24.3822 5.51218C21.8709 5.04713 18.9458 4.96218 16.4233 5.30841C15.0453 5.49754 14.029 6.20885 13.2709 7.34608" stroke="#1E1E1E" stroke-width="3" stroke-linecap="round" />
-        </svg>
-        <span className="logo-name">budEJournal</span>
+        <img src={AppLogo}></img>
+        <span className="navbar-logo-name">budEJournal</span>
       </div>
       <div className="navbar-search">
         <input type="text" placeholder="🔍 Search past entries by keywords" value={searchKeywords} onChange={handleSearchKeywords} />
-        <button onClick={handleSearch}>Search</button>
       </div>
       <div className="navbar-user">
-        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
-          <path d="M22 22C26.0517 22 29.3333 18.7183 29.3333 14.6667C29.3333 10.615 26.0517 7.33334 22 7.33334C17.9483 7.33334 14.6667 10.615 14.6667 14.6667C14.6667 18.7183 17.9483 22 22 22ZM22 25.6667C17.105 25.6667 7.33334 28.1233 7.33334 33V36.6667H36.6667V33C36.6667 28.1233 26.895 25.6667 22 25.6667Z" fill="#2C2C2C" />
-        </svg>
+        <img src={ProfileIcon}></img>
         <span className="username-fontstyle">Emily Nguyen</span>
+        <img src={DownArrow}></img>
       </div>
     </nav>
   );

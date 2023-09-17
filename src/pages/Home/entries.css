@@ -1,0 +1,37 @@
+.entries-container{
+    display:flex;
+    background-color:#FAFAFA;
+    align-items: left;
+    width: 27.375rem;
+    height: 6.6875rem;
+    border-radius:  0.625rem;
+    margin-top:3%;
+    margin-left:2%;
+    padding:15px;
+    
+}
+/* left-div */
+.entry-date{
+    display:flex;
+    padding: 14px 12px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:0.625rem;
+    border: 2px solid #DBDBDB;
+    top: 17px;
+    left: 16px;
+    width: 3.1875rem;
+    height: 4.5625rem;    
+}
+/* right-div */
+.entry-grateful{
+    display:block;
+    padding-left:2rem;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1em;
+    position: relative;
+    text-align: left;
+}
