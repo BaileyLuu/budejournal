@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.logo-name {
+    color: #1E1E1E;
+    font-family: Verdana;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left:10px;
+    align-items: center;
+    /* 33px */
+}
+
+.navbar-search {
+    display: flex;
+    height: 50px;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    flex-grow: 0.5;
+}
+
+.navbar-search input[type="text"] {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 11px;
+    background-color: #FAFAFA;
+    font-size: 20px;
+}
+
+.navbar-search button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+}
+
+.username-fontstyle {
+    color: var(--black, #1E1E1E);
+    font-family: Verdana;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25.5px */
+}
