@@ -17,18 +17,18 @@ export default function Entries(){
         <div className="entries-container">
             <div className="entry-date">Thu 14</div>
             <div className="entry-grateful">
-                <span>I'M GRATEFUL FOR</span><br></br>
+            <span><strong>I'M GRATEFUL FOR</strong></span><br></br>
                 <span>The person who asked about my day</span><br></br>
-                <span>I LOOK FORWARD TO</span><br></br>
+                <span><strong>I LOOK FORWARD TO</strong></span><br></br>
                 <span>Getting some rest</span><br></br>
             </div>
         </div>
         <div className="entries-container">
             <div className="entry-date">Wed 13</div>
             <div className="entry-grateful">
-                <span>I'M GRATEFUL FOR</span><br></br>
+            <span><strong>I'M GRATEFUL FOR</strong></span><br></br>
                 <span>My mom checking in on me</span><br></br>
-                <span>I LOOK FORWARD TO</span><br></br>
+                <span><strong>I LOOK FORWARD TO</strong></span><br></br>
                 <span>Trying out a recipe tomorrow</span><br></br>
             </div>
         </div>
