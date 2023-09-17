@@ -8,7 +8,7 @@ export default function Home(){
         <div>
             <Navbar/>
             <Emoji/>
-            <Entries/>
+            {/* <Entries/> */}
         </div>
     );
 }

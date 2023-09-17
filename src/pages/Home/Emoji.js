@@ -16,34 +16,34 @@ export default function Emoji() {
             </div>
             <div className='emoji-container'>
                 <div className='emoji-daytime'>
-                    <div className='emoji-daytime-wrapper'>
+                    {/* <div className='emoji-daytime-wrapper'>
                         
-                    </div>
+                    </div> */}
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={surprised}></img>
-                    <img className="img2" src={neutral}></img>
+                    <img alt="surprised" className="img1" src={surprised}></img>
+                    <img alt="neutral" className="img2" src={neutral}></img>
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={happy}></img>
-                    <img className="img2" src={happy}></img>
+                    <img alt="happy" className="img1" src={happy}></img>
+                    <img alt="happy" className="img2" src={happy}></img>
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={sad}></img>
-                    <img className="img2" src={smiling}></img>
+                    <img alt="sad" className="img1" src={sad}></img>
+                    <img alt="smiling" className="img2" src={smiling}></img>
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={smiling}></img>
-                    <img className="img2" src={neutral}></img>
+                    <img alt="smiling" className="img1" src={smiling}></img>
+                    <img alt="neutral" className="img2" src={neutral}></img>
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={surprised}></img>
-                    <img className="img2" src={neutral}></img>
+                    <img alt="surprised" className="img1" src={surprised}></img>
+                    <img alt="neutral" className="img2" src={neutral}></img>
         
                 </div>
                 <div className="emoji-mood">
-                    <img className="img1" src={smiling}></img>
-                    <img className="img2" src={happy}></img>
+                    <img alt="smiling" className="img1" src={smiling}></img>
+                    <img alt="happy" className="img2" src={happy}></img>
                 </div>
             </div>
            
