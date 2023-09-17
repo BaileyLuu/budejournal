@@ -1,3 +1,7 @@
+h2{
+    text-align: left;
+    margin-left:2%;
+}
 .entries-container{
     display:flex;
     background-color:#FAFAFA;
@@ -5,7 +9,7 @@
     width: 27.375rem;
     height: 6.6875rem;
     border-radius:  0.625rem;
-    margin-top:3%;
+    margin-top:1%;
     margin-left:2%;
     padding:15px;
     
@@ -35,3 +39,4 @@
     position: relative;
     text-align: left;
 }
+

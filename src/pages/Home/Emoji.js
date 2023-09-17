@@ -14,7 +14,13 @@ export default function Emoji() {
                 <div className="period">Monthly</div>
                 <div className='period'>Yearly</div>
             </div>
+            
             <div className='emoji-container'>
+                <div class="stacked-time">
+                    <div class="time">Morning</div>
+                    <di class="time">Evening</di>
+                </div>
+                
                 <div className='emoji-daytime'>
                     {/* <div className='emoji-daytime-wrapper'>
                         
