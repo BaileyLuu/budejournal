@@ -4,7 +4,6 @@ import happy from '../assets/Happy.svg';
 import surprised from '../assets/Surprised.svg';
 import sad from '../assets/Sad.svg';
 import smiling from '../assets/Smiling.png';
-import neutral from '../assets/Neutral.svg';
 
 export default function Emoji() {
     return (

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import './emoji.css';
 import happy from '../assets/Happy.svg';
-import surprised from '../assets/Surprised.svg';
+import what from '../assets/What.png';
 import sad from '../assets/Sad.svg';
 import smiling from '../assets/Smiling.png';
-import neutral from '../assets/Neutral.svg';
 
 export default function Emoji() {
     return (
@@ -17,29 +16,23 @@ export default function Emoji() {
                     
                 </div>
                 <div className="emoji-mood">
-                    <img src={surprised}></img>
-                    <img src={neutral}></img>
+                    <img src={what}></img>
+                   
                 </div>
                 <div className="emoji-mood">
-                    <img src={happy}></img>
-                    <img src={happy}></img>
+                   
                 </div>
                 <div className="emoji-mood">
-                    <img src={sad}></img>
-                    <img src={smiling}></img>
+                   
                 </div>
                 <div className="emoji-mood">
-                    <img src={smiling}></img>
-                    <img src={neutral}></img>
+                    
                 </div>
                 <div className="emoji-mood">
-                    <img src={surprised}></img>
-                    <img src={neutral}></img>
-        
+                   
                 </div>
                 <div className="emoji-mood">
-                    <img src={smiling}></img>
-                    <img src={happy}></img>
+                   
                 </div>
 
                 {/* <div className="mood-weekly">

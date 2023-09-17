@@ -43,7 +43,6 @@
     flex-shrink: 0;
 } */
 .emoji-mood{
-    position:relative;
     display:flex;
     /* margin-left:10%; */
     margin-left:1%;
@@ -61,6 +60,5 @@
     margin-left: 1px;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* display:inline-block;
-    position:absolute; */
+    display:block
 }

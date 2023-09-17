@@ -43,7 +43,6 @@
     flex-shrink: 0;
 } */
 .emoji-mood{
-    position:relative;
     display:flex;
     /* margin-left:10%; */
     margin-left:1%;
@@ -56,11 +55,9 @@
     height: 168px;
 }
 .emoji-mood img{
-    width: 60px;
-    height: 60px;
-    margin-left: 1px;
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* display:inline-block;
-    position:absolute; */
 }

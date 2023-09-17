@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-import './emoji.css';
-import happy from '../assets/Happy.svg';
-import surprised from '../assets/Surprised.svg';
-import sad from '../assets/Sad.svg';
-import smiling from '../assets/Smiling.png';
-import neutral from '../assets/Neutral.svg';
+import './emoji.css'
 
 export default function Emoji() {
     return (
@@ -14,32 +9,24 @@ export default function Emoji() {
                     <div className="period">Weekly</div>
                     <div className="period">Monthly</div>
                     <div className='period'>Yearly</div>
-                    
+                    {/* <button className="period-btn">Weekly</button>
+                    <button className="period-btn">Monthly</button>
+                    <button className="period-btn">Yearly</button> */}
                 </div>
                 <div className="emoji-mood">
-                    <img src={surprised}></img>
-                    <img src={neutral}></img>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67" fill="none">
+                        <circle cx="33.5" cy="33.5" r="33.5" fill="#E2E2E2" />
+                    </svg>
                 </div>
                 <div className="emoji-mood">
-                    <img src={happy}></img>
-                    <img src={happy}></img>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67" fill="none">
+                        <circle cx="33.5" cy="33.5" r="33.5" fill="#FF8C4B" />
+                    </svg>
                 </div>
                 <div className="emoji-mood">
-                    <img src={sad}></img>
-                    <img src={smiling}></img>
-                </div>
-                <div className="emoji-mood">
-                    <img src={smiling}></img>
-                    <img src={neutral}></img>
-                </div>
-                <div className="emoji-mood">
-                    <img src={surprised}></img>
-                    <img src={neutral}></img>
-        
-                </div>
-                <div className="emoji-mood">
-                    <img src={smiling}></img>
-                    <img src={happy}></img>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67" fill="none">
+                        <circle cx="33.5" cy="33.5" r="33.5" fill="#A9B7C0" />
+                    </svg>
                 </div>
 
                 {/* <div className="mood-weekly">
